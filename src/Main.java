@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-     Stusent stusent = new Stusent(19,"Sergey","Mirononv");
-     Stusent prorotype= (Stusent) stusent.createPrototype();
+     Student stusent = new Student(19,"Sergey","Mirononv");
+     Student prorotype= (Student) stusent.createPrototype();
         System.out.println(stusent);
         System.out.println("**************************************");
         System.out.println(prorotype);

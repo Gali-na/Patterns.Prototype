@@ -1,12 +1,12 @@
-public class Stusent implements  Copyable{
+public class Student implements  Copyable{
     private int age;
     private String name;
     private String surname;
 
-    public Stusent() {
+    public Student() {
     }
 
-    public Stusent(int age, String name, String surname) {
+    public Student(int age, String name, String surname) {
         this.age = age;
         this.name = name;
         this.surname = surname;
@@ -38,7 +38,7 @@ public class Stusent implements  Copyable{
 
     @Override
     public Object createPrototype() {
-        Stusent stusent = new Stusent(this.age,this.name,this.surname);
+        Student stusent = new Student(this.age,this.name,this.surname);
         return stusent;
     }
 
